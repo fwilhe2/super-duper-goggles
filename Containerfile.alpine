@@ -1,0 +1,6 @@
+# SPDX-FileCopyrightText: 2025 Florian Wilhelm
+#
+# SPDX-License-Identifier: MIT
+
+FROM alpine:edge
+RUN apk add --no-cache go libreoffice

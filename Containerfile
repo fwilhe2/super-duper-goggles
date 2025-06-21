@@ -4,4 +4,4 @@
 
 FROM docker.io/golang:1.24
 
-RUN apt-get -qq update && apt-get install --no-install-recommends -yqq libreoffice libreoffice-l10n-de
+RUN apt-get -qq update && apt-get install --no-install-recommends -yqq libreoffice-calc libreoffice-l10n-de
